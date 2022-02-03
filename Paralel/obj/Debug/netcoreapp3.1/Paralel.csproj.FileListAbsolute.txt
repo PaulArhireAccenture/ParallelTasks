@@ -1,0 +1,14 @@
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\bin\Debug\netcoreapp3.1\Paralel.exe
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\bin\Debug\netcoreapp3.1\Paralel.deps.json
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\bin\Debug\netcoreapp3.1\Paralel.runtimeconfig.json
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\bin\Debug\netcoreapp3.1\Paralel.runtimeconfig.dev.json
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\bin\Debug\netcoreapp3.1\Paralel.dll
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\bin\Debug\netcoreapp3.1\Paralel.pdb
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.csproj.AssemblyReference.cache
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.AssemblyInfoInputs.cache
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.AssemblyInfo.cs
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.csproj.CoreCompileInputs.cache
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.dll
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.pdb
+C:\Users\paul-andrei.arhire\source\repos\Paralel\Paralel\obj\Debug\netcoreapp3.1\Paralel.genruntimeconfig.cache
