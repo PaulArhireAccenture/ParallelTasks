@@ -11,25 +11,34 @@ namespace Paralel
     class Program
     {
         static ConcurrentQueue<TimestampDTO> queue = new ConcurrentQueue<TimestampDTO>();
-        //static bool canAdd = true;
+        static bool canStartC = false;
         static void Main(string[] args)
         {
             Task taskA = Task.Run(() => {
                 //while (!canAdd) { }
                 //canAdd = false;
-                queue.Enqueue(new TimestampDTO(1));
+                for (int i = 0; i < 100; i++)
+                {
+                    queue.Enqueue(new TimestampDTO(1));
+                    canStartC = true;
+                }
+                
                 //canAdd = true;
             });
-            taskA.Wait();
+            
             Task taskB = Task.Run(() => {
                 //while (!canAdd) { }
                 //canAdd = false;
-                queue.Enqueue(new TimestampDTO(2));
+                for (int i = 0; i<100; i++)
+                {
+                    queue.Enqueue(new TimestampDTO(2));
+                }
+                
                 //canAdd = true;
             });
             Task taskC = Task.Run(() => {
                 ArrayList list = new ArrayList();
-                //while (!canAdd) { }
+                while (!canStartC) { }
                 while (queue.Count != 0)
                 {
                     queue.TryDequeue(out TimestampDTO aux);
@@ -44,7 +53,7 @@ namespace Paralel
                     Console.WriteLine("The process took: " + (currTime - aux.timestamp) + " seconds");
                 }
             });
-            //taskA.Wait();
+            taskA.Wait();
             taskB.Wait();
             taskC.Wait();
 
